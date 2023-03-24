@@ -1,2 +1,2 @@
 SELECT * FROM Students
-WHERE City NOT LIKE 'a%' AND City NOT LIKE 'c%' AND City NOT LIKE 'f%';
+WHERE City NOT LIKE 'a%' OR City NOT LIKE 'c%' OR City NOT LIKE 'f%';
